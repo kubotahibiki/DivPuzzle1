@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+header,main,footer{
+  width:  400px;
+}
+main div{
+  height: 250px;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.clearfix {
+  display: block;
+}
+.red{
+  height: 100px;
+  background: #ff0000;
+}
+.green{
+  width: 150px;
+  background: #00ff10;
+  float: left;
+}
+.blue{
+  width: 250px;
+  background: #3300ff;
+  float: left;
+}
+.yellow{
+  height: 100px;
+  background: #ffe600;
+}
